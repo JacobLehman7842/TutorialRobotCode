@@ -32,7 +32,6 @@ public class SpinMotor extends CommandBase {
   @Override
   public void execute() {
     m_subsystem.spin(0.25);
-    
   }
 
   // Called once the command ends or is interrupted.
